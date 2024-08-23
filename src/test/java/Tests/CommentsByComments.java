@@ -98,15 +98,17 @@ public class CommentsByComments  extends VivaLogin {
     @Test
 	void TC_CC_09() throws InterruptedException, IOException {
   	    ExtentTest test = extentReport.createTest("TC_CC09");
-	    test.log(Status.PASS, "Able to Quarantine comments");
+	    test.log(Status.PASS, "Able to UnRedact comments");
 	    commentscomments.UnRedact();
+	 
 		test.addScreenCaptureFromPath(Screenshot("TC_CC09"));
+		
     }
 
     @Test
     void TC_CC_10() throws InterruptedException, IOException {
   	    ExtentTest test = extentReport.createTest("TC_CC10");
-	    test.log(Status.PASS, "Flagged Comments");
+	    test.log(Status.INFO, "Flagged Comments");
 	    commentscomments.flagged();
 	    test.addScreenCaptureFromPath(Screenshot("TC_CC10"));
    }  

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 01 21:07:07 IST 2024</td>
+<td>Started on:</td><td>Wed Aug 21 20:01:38 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92187 ms)</td>
+<tr><td>Total time:</td><td>87 seconds (87464 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.CommentsByComments.TC_CC_10()'><b>TC_CC_10</b><br>Test class: Tests.CommentsByComments</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1986384029=&quot;&quot; class=&quot;facetLabel&quot;&gt;...&lt;/span&gt; is not clickable at point (107, 10). Other element would receive the click: &lt;header _ngcontent-ng-c2784457904=&quot;&quot; glintoneshell=&quot;&quot; glintscreensize=&quot;&quot; aria-label=&quot;Viva Glint App Header&quot;&gt;...&lt;/header&gt;
-  (Session info: chrome=126.0.6478.127)
+<td title='Tests.CommentsByTopics.TC_CT_09()'><b>TC_CT_09</b><br>Test class: Tests.CommentsByTopics</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[contains(text(),257)])[2]&quot;}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7824713f218ec3392cee17079211aba, clickElement {id=f.70F400846BFF8F9FA04F32E49C250B39.d.500DAA67AC85189A2776731F30939AA3.e.347}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7824713f218ec3392cee17079211aba)] -&gt; xpath: //span[text()=&apos;PII&apos;]]
-Session ID: c7824713f218ec3392cee17079211aba
+Command: [5325793c36b1a5116e714d1ab15af103, findElement {using=xpath, value=(//span[contains(text(),257)])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5325793c36b1a5116e714d1ab15af103
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,10 +97,12 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at CommentsReport.CommentsComments.flagged(CommentsComments.java:136)
-	at Tests.CommentsByComments.TC_CC_10(CommentsByComments.java:110)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at CommentsReport.CommentsTopics.Topicscount(CommentsTopics.java:86)
+	at Tests.CommentsByTopics.TC_CT_09(CommentsByTopics.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,16 +131,16 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace590406624", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace590406624'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1986384029=&quot;&quot; class=&quot;facetLabel&quot;&gt;...&lt;/span&gt; is not clickable at point (107, 10). Other element would receive the click: &lt;header _ngcontent-ng-c2784457904=&quot;&quot; glintoneshell=&quot;&quot; glintscreensize=&quot;&quot; aria-label=&quot;Viva Glint App Header&quot;&gt;...&lt;/header&gt;
-  (Session info: chrome=126.0.6478.127)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1026001741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1026001741'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[contains(text(),257)])[2]&quot;}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7824713f218ec3392cee17079211aba, clickElement {id=f.70F400846BFF8F9FA04F32E49C250B39.d.500DAA67AC85189A2776731F30939AA3.e.347}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7824713f218ec3392cee17079211aba)] -&gt; xpath: //span[text()=&apos;PII&apos;]]
-Session ID: c7824713f218ec3392cee17079211aba
+Command: [5325793c36b1a5116e714d1ab15af103, findElement {using=xpath, value=(//span[contains(text(),257)])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5325793c36b1a5116e714d1ab15af103
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -151,10 +153,12 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at CommentsReport.CommentsComments.flagged(CommentsComments.java:136)
-	at Tests.CommentsByComments.TC_CC_10(CommentsByComments.java:110)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at CommentsReport.CommentsTopics.Topicscount(CommentsTopics.java:86)
+	at Tests.CommentsByTopics.TC_CT_09(CommentsByTopics.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,19 +188,19 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>7</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
+<td>10</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
 <tr>
-<td title='Tests.CommentsByComments.TC_CC_07()'><b>TC_CC_07</b><br>Test class: Tests.CommentsByComments</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1986384029=&quot;&quot; class=&quot;facetLabel&quot;&gt;...&lt;/span&gt; is not clickable at point (127, 10). Other element would receive the click: &lt;header _ngcontent-ng-c2784457904=&quot;&quot; glintoneshell=&quot;&quot; glintscreensize=&quot;&quot; aria-label=&quot;Viva Glint App Header&quot;&gt;...&lt;/header&gt;
-  (Session info: chrome=126.0.6478.127)
+<td title='Tests.CommentsByTopics.TC_CT_10()'><b>TC_CT_10</b><br>Test class: Tests.CommentsByTopics</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-ng-c3079814927=&quot;&quot; glintbutton=&quot;&quot; role=&quot;combobox&quot; aria-haspopup=&quot;listbox&quot; class=&quot;menuButton overflow glintButton&quot; aria-label=&quot;Topicsmenu&quot; aria-labelledby=&quot;dropdownTriggerAriaLabel_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;dropdownMenu_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; aria-disabled=&quot;false&quot; id=&quot;dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; data-id=&quot;dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; tabindex=&quot;0&quot;&gt;...&lt;/div&gt; is not clickable at point (1233, 8). Other element would receive the click: &lt;header _ngcontent-ng-c4267249590=&quot;&quot; glintoneshell=&quot;&quot; glintscreensize=&quot;&quot; aria-label=&quot;Viva Glint App Header&quot;&gt;...&lt;/header&gt;
+  (Session info: chrome=127.0.6533.120)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7824713f218ec3392cee17079211aba, clickElement {id=f.70F400846BFF8F9FA04F32E49C250B39.d.500DAA67AC85189A2776731F30939AA3.e.146}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7824713f218ec3392cee17079211aba)] -&gt; xpath: //span[text()=&apos;Profanity&apos;]]
-Session ID: c7824713f218ec3392cee17079211aba
+Command: [5325793c36b1a5116e714d1ab15af103, clickElement {id=f.73A69602C9441FE159F55C930B436E6D.d.2C29363A2D551F0F19D7A247C7E41B62.e.340}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5325793c36b1a5116e714d1ab15af103)] -&gt; xpath: (//div[@aria-haspopup=&apos;listbox&apos;])[13]]
+Session ID: 5325793c36b1a5116e714d1ab15af103
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -211,8 +215,8 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at CommentsReport.CommentsComments.Quarantine(CommentsComments.java:88)
-	at Tests.CommentsByComments.TC_CC_07(CommentsByComments.java:87)
+	at CommentsReport.CommentsTopics.Topicsremove(CommentsTopics.java:96)
+	at Tests.CommentsByTopics.TC_CT_10(CommentsByTopics.java:109)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -241,16 +245,16 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace13928051", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace13928051'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-ng-c1986384029=&quot;&quot; class=&quot;facetLabel&quot;&gt;...&lt;/span&gt; is not clickable at point (127, 10). Other element would receive the click: &lt;header _ngcontent-ng-c2784457904=&quot;&quot; glintoneshell=&quot;&quot; glintscreensize=&quot;&quot; aria-label=&quot;Viva Glint App Header&quot;&gt;...&lt;/header&gt;
-  (Session info: chrome=126.0.6478.127)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1658273453", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1658273453'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div _ngcontent-ng-c3079814927=&quot;&quot; glintbutton=&quot;&quot; role=&quot;combobox&quot; aria-haspopup=&quot;listbox&quot; class=&quot;menuButton overflow glintButton&quot; aria-label=&quot;Topicsmenu&quot; aria-labelledby=&quot;dropdownTriggerAriaLabel_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;dropdownMenu_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; aria-disabled=&quot;false&quot; id=&quot;dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; data-id=&quot;dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef&quot; tabindex=&quot;0&quot;&gt;...&lt;/div&gt; is not clickable at point (1233, 8). Other element would receive the click: &lt;header _ngcontent-ng-c4267249590=&quot;&quot; glintoneshell=&quot;&quot; glintscreensize=&quot;&quot; aria-label=&quot;Viva Glint App Header&quot;&gt;...&lt;/header&gt;
+  (Session info: chrome=127.0.6533.120)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7824713f218ec3392cee17079211aba, clickElement {id=f.70F400846BFF8F9FA04F32E49C250B39.d.500DAA67AC85189A2776731F30939AA3.e.146}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64614/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c7824713f218ec3392cee17079211aba)] -&gt; xpath: //span[text()=&apos;Profanity&apos;]]
-Session ID: c7824713f218ec3392cee17079211aba
+Command: [5325793c36b1a5116e714d1ab15af103, clickElement {id=f.73A69602C9441FE159F55C930B436E6D.d.2C29363A2D551F0F19D7A247C7E41B62.e.340}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5325793c36b1a5116e714d1ab15af103)] -&gt; xpath: (//div[@aria-haspopup=&apos;listbox&apos;])[13]]
+Session ID: 5325793c36b1a5116e714d1ab15af103
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -265,8 +269,8 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at CommentsReport.CommentsComments.Quarantine(CommentsComments.java:88)
-	at Tests.CommentsByComments.TC_CC_07(CommentsByComments.java:87)
+	at CommentsReport.CommentsTopics.Topicsremove(CommentsTopics.java:96)
+	at Tests.CommentsByTopics.TC_CT_10(CommentsByTopics.java:109)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -297,7 +301,7 @@ Session ID: c7824713f218ec3392cee17079211aba
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>1</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -307,50 +311,45 @@ Session ID: c7824713f218ec3392cee17079211aba
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.CommentsByComments.TC_CC_06()'><b>TC_CC_06</b><br>Test class: Tests.CommentsByComments</td>
-<td></td>
-<td>4</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
-<tr>
-<td title='Tests.CommentsByComments.TC_CC_01()'><b>TC_CC_01</b><br>Test class: Tests.CommentsByComments</td>
-<td></td>
-<td>11</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
-<tr>
-<td title='Tests.CommentsByComments.TC_CC_04()'><b>TC_CC_04</b><br>Test class: Tests.CommentsByComments</td>
-<td></td>
-<td>6</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
-<tr>
-<td title='Tests.CommentsByComments.TC_CC_03()'><b>TC_CC_03</b><br>Test class: Tests.CommentsByComments</td>
-<td></td>
-<td>2</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
-<tr>
-<td title='Tests.CommentsByComments.TC_CC_11()'><b>TC_CC_11</b><br>Test class: Tests.CommentsByComments</td>
-<td></td>
-<td>3</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
-<tr>
-<td title='Tests.CommentsByComments.TC_CC_08()'><b>TC_CC_08</b><br>Test class: Tests.CommentsByComments</td>
-<td></td>
-<td>0</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
-<tr>
-<td title='Tests.CommentsByComments.TC_CC_02()'><b>TC_CC_02</b><br>Test class: Tests.CommentsByComments</td>
+<td title='Tests.CommentsByTopics.TC_CT_07()'><b>TC_CT_07</b><br>Test class: Tests.CommentsByTopics</td>
 <td></td>
 <td>1</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
 <tr>
-<td title='Tests.CommentsByComments.TC_CC_09()'><b>TC_CC_09</b><br>Test class: Tests.CommentsByComments</td>
+<td title='Tests.CommentsByTopics.TC_CT_02()'><b>TC_CT_02</b><br>Test class: Tests.CommentsByTopics</td>
+<td></td>
+<td>1</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
+<tr>
+<td title='Tests.CommentsByTopics.TC_CT_01()'><b>TC_CT_01</b><br>Test class: Tests.CommentsByTopics</td>
+<td></td>
+<td>17</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
+<tr>
+<td title='Tests.CommentsByTopics.TC_CT_04()'><b>TC_CT_04</b><br>Test class: Tests.CommentsByTopics</td>
+<td></td>
+<td>10</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
+<tr>
+<td title='Tests.CommentsByTopics.TC_CT_03()'><b>TC_CT_03</b><br>Test class: Tests.CommentsByTopics</td>
+<td></td>
+<td>11</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
+<tr>
+<td title='Tests.CommentsByTopics.TC_CT_08()'><b>TC_CT_08</b><br>Test class: Tests.CommentsByTopics</td>
 <td></td>
 <td>0</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
 <tr>
-<td title='Tests.CommentsByComments.TC_CC_05()'><b>TC_CC_05</b><br>Test class: Tests.CommentsByComments</td>
+<td title='Tests.CommentsByTopics.TC_CT_06()'><b>TC_CT_06</b><br>Test class: Tests.CommentsByTopics</td>
 <td></td>
-<td>0</td>
-<td>Tests.CommentsByComments@272113c4</td></tr>
+<td>1</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
+<tr>
+<td title='Tests.CommentsByTopics.TC_CT_05()'><b>TC_CT_05</b><br>Test class: Tests.CommentsByTopics</td>
+<td></td>
+<td>3</td>
+<td>Tests.CommentsByTopics@783a467b</td></tr>
 </table><p>
 </body>
 </html>

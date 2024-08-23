@@ -85,8 +85,17 @@ public class CommentsComments extends SeleniumBase{
 		 }
 		 
 	public void Quarantine() throws InterruptedException  {
-		driver.findElement(By.xpath(properties.getProperty("comsec.tab3.xpath"))).click(); 
+//	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+//	    JavascriptExecutor executor = (JavascriptExecutor)driver;
+//        executor.executeScript("window.scrollBy(0,-250)", "");
+        
+        WebElement Commentstitle =driver.findElement(By.xpath(properties.getProperty("comsec.title.xpath")));
+        ScrollintoElement(Commentstitle);
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+        driver.findElement(By.xpath(properties.getProperty("comsec.tab3.xpath"))).click(); 
+
+       // profanity.click();
+	   // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 	 	    
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 //        JavascriptExecutor executor = (JavascriptExecutor)driver;
@@ -107,6 +116,8 @@ public class CommentsComments extends SeleniumBase{
 	    String quarantine = driver.findElement(By.xpath(properties.getProperty("comsec.Qcount.xpath")))
 	    		                  .getText();
 		System.out.println(quarantine);
+		driver.findElement(By.xpath(properties.getProperty("comsec.close.xpath")))
+        .click();
 		     
 		}
 		 
@@ -130,22 +141,30 @@ public class CommentsComments extends SeleniumBase{
          }
 		 
 	public void flagged() throws InterruptedException {
-			 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-			 Thread.sleep(5000);
+			 //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+			 //Thread.sleep(5000);
+
+		WebElement Commentstitle =driver.findElement(By.xpath(properties.getProperty("comsec.title.xpath")));
+        ScrollintoElement(Commentstitle);
+				 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+  
 			 driver.findElement(By.xpath(properties.getProperty("comsec.pii.xpath")))
 			       .click(); 
-		     Thread.sleep(5000);
+		    // Thread.sleep(5000);
 	         String Bgclr = driver.findElement(By.xpath(properties.getProperty("comsec.flag.xpath")))
 	        		              .getCssValue("background"); 
 	         System.out.println(Bgclr);
 	          
 	         driver.findElement(By.xpath(properties.getProperty("comsec.tab3.xpath")))
 	               .click(); 
-			 Thread.sleep(5000);
+			 //Thread.sleep(5000);
 	         String Bgclr1 = driver.findElement(By.xpath(properties.getProperty("comsec.flag1.xpath")))
 	        		               .getCssValue("background"); 
 	         System.out.println(Bgclr1);
-	          
+			 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+//			 WebElement Representative1 =driver.findElement(By.xpath("(//p[@class='vg-layout-header-title'])[5]"));
+//		        ScrollintoElement(Representative1);
+
 	         driver.findElement(By.xpath(properties.getProperty("comsec.tab4.xpath"))).click(); 
 	    	 Thread.sleep(5000);
 	         String Bgclr2 = driver.findElement(By.xpath(properties.getProperty("comsec.flag2.xpath")))

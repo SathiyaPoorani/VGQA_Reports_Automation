@@ -37,9 +37,8 @@ public class CommentsTopics extends SeleniumBase{
 	    WebElement Bubble = driver.findElement(By.xpath(properties.getProperty("topic.bubble.xpath")));
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", Bubble);
         Actions mouse = new Actions(driver);
- 	    Thread.sleep(5000);
-        mouse.moveToElement(Bubble,135,15).build().perform();
-		String tooltipmsg = driver.findElement(By.xpath(properties.getProperty("topic.bubbletp.xpath"))).getText();
+ 	    mouse.moveToElement(Bubble,155,25).build().perform();
+	    String tooltipmsg = driver.findElement(By.xpath(properties.getProperty("topic.bubbletp.xpath"))).getText();
 		return tooltipmsg;
 	}
 	
@@ -47,9 +46,8 @@ public class CommentsTopics extends SeleniumBase{
        WebElement Bubble = driver.findElement(By.xpath(properties.getProperty("topic.bubble.xpath")));
        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",Bubble);
 	    Actions Position = new Actions(driver);
-	    Thread.sleep(5000);
-	    Position.moveToElement(Bubble,135,15).click().build().perform();
-	    Thread.sleep(5000);
+	    Position.moveToElement(Bubble,155,25).click().build().perform();
+	 
 		driver.findElement(By.xpath(properties.getProperty("topic.slider.xpath")));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.findElement(By.xpath(properties.getProperty("topic.close.xpath"))).click();
@@ -59,8 +57,7 @@ public class CommentsTopics extends SeleniumBase{
 		WebElement Bubble = driver.findElement(By.xpath(properties.getProperty("topic.bubble.xpath")));
 	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", Bubble);
 		Actions Position = new Actions(driver);
-	    Thread.sleep(2000);
-	    Position.dragAndDropBy(Bubble,250,30).perform();
+	    Position.dragAndDropBy(Bubble,255,35).perform();
 	}
 	
 	public void TopicsToggle() {
@@ -82,8 +79,11 @@ public class CommentsTopics extends SeleniumBase{
          driver.findElement(By.xpath(properties.getProperty("topic.viewall.xpath"))).click();
 	 }
 	
-	 public void Topicscount()  {
-	    	driver.findElement(By.xpath(properties.getProperty("topic.ccount.xpath"))).click();
+	 public void Topicscount() throws InterruptedException  {
+			driver.findElement(By.xpath(properties.getProperty("topic.sort.xpath"))).click();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(properties.getProperty("topic.ccount.xpath"))).click();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.findElement(By.xpath(properties.getProperty("topic.slider.xpath")));
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

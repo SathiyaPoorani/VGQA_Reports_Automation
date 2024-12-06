@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Tests.VivaLogin"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.CommentsByTopics">
+        <methods>
+          <include name="TC_CT_07"/>
+          <include name="TC_CT_08"/>
+          <include name="TC_CT_09"/>
+          <include name="TC_CT_02"/>
+          <include name="TC_CT_03"/>
+          <include name="TC_CT_04"/>
+          <include name="TC_CT_05"/>
+          <include name="quit"/>
+          <include name="TC_CT_06"/>
+          <include name="setup"/>
+          <include name="setObject"/>
+          <include name="ExtentReports"/>
+          <include name="TC_CT_10"/>
+          <include name="TC_CT_01"/>
+          <include name="generateReports"/>
+        </methods>
+      </class> <!-- Tests.CommentsByTopics -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

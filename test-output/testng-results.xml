@@ -1,213 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T20:01:38 IST" name="Default suite" finished-at="2024-08-21T20:03:05 IST" duration-ms="87464">
+  <suite started-at="2024-12-05T00:45:17 IST" name="Default suite" finished-at="2024-12-05T00:47:40 IST" duration-ms="142986">
     <groups>
     </groups>
-    <test started-at="2024-08-21T20:01:38 IST" name="Default test" finished-at="2024-08-21T20:03:05 IST" duration-ms="87464">
-      <class name="Tests.CommentsByTopics">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:01:38 IST" name="setup" finished-at="2024-08-21T20:01:47 IST" duration-ms="9528" status="PASS">
+    <test started-at="2024-12-05T00:45:17 IST" name="Default test" finished-at="2024-12-05T00:47:40 IST" duration-ms="142986">
+      <class name="Tests.CommentsByComments">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:45:17 IST" name="setup" finished-at="2024-12-05T00:45:33 IST" duration-ms="16266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="ExtentReports()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:01:47 IST" name="ExtentReports" finished-at="2024-08-21T20:01:48 IST" duration-ms="540" status="PASS">
+        <test-method is-config="true" signature="ExtentReports(org.testng.ITestContext)[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:45:33 IST" name="ExtentReports" finished-at="2024-12-05T00:45:34 IST" duration-ms="739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74e6094b]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReports -->
-        <test-method is-config="true" signature="setObject()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:01:48 IST" name="setObject" finished-at="2024-08-21T20:02:04 IST" duration-ms="16332" status="PASS">
+        <test-method is-config="true" signature="setObject()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:45:34 IST" name="setObject" finished-at="2024-12-05T00:46:02 IST" duration-ms="28157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setObject -->
-        <test-method signature="TC_CT_01()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:04 IST" name="TC_CT_01" finished-at="2024-08-21T20:02:22 IST" duration-ms="17788" status="PASS">
+        <test-method signature="TC_CC_01()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:02 IST" name="TC_CC_01" finished-at="2024-12-05T00:46:24 IST" duration-ms="22614" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_01 -->
-        <test-method signature="TC_CT_02()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:22 IST" name="TC_CT_02" finished-at="2024-08-21T20:02:23 IST" duration-ms="1379" status="PASS">
+        </test-method> <!-- TC_CC_01 -->
+        <test-method signature="TC_CC_02()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:24 IST" name="TC_CC_02" finished-at="2024-12-05T00:46:29 IST" duration-ms="4689" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_02 -->
-        <test-method signature="TC_CT_03()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:23 IST" name="TC_CT_03" finished-at="2024-08-21T20:02:34 IST" duration-ms="11047" status="PASS">
+        </test-method> <!-- TC_CC_02 -->
+        <test-method signature="TC_CC_03()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:29 IST" name="TC_CC_03" finished-at="2024-12-05T00:46:35 IST" duration-ms="5550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_03 -->
-        <test-method signature="TC_CT_04()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:34 IST" name="TC_CT_04" finished-at="2024-08-21T20:02:45 IST" duration-ms="10983" status="PASS">
+        </test-method> <!-- TC_CC_03 -->
+        <test-method signature="TC_CC_04()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:35 IST" name="TC_CC_04" finished-at="2024-12-05T00:46:43 IST" duration-ms="8438" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_04 -->
-        <test-method signature="TC_CT_05()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:45 IST" name="TC_CT_05" finished-at="2024-08-21T20:02:49 IST" duration-ms="3142" status="PASS">
+        </test-method> <!-- TC_CC_04 -->
+        <test-method signature="TC_CC_05()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:43 IST" name="TC_CC_05" finished-at="2024-12-05T00:46:44 IST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_05 -->
-        <test-method signature="TC_CT_06()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:49 IST" name="TC_CT_06" finished-at="2024-08-21T20:02:50 IST" duration-ms="1463" status="PASS">
+        </test-method> <!-- TC_CC_05 -->
+        <test-method signature="TC_CC_06()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:44 IST" name="TC_CC_06" finished-at="2024-12-05T00:46:51 IST" duration-ms="6857" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_06 -->
-        <test-method signature="TC_CT_07()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:50 IST" name="TC_CT_07" finished-at="2024-08-21T20:02:51 IST" duration-ms="1080" status="PASS">
+        </test-method> <!-- TC_CC_06 -->
+        <test-method signature="TC_CC_07()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:46:51 IST" name="TC_CC_07" finished-at="2024-12-05T00:47:03 IST" duration-ms="11672" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_07 -->
-        <test-method signature="TC_CT_08()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:51 IST" name="TC_CT_08" finished-at="2024-08-21T20:02:52 IST" duration-ms="986" status="PASS">
+        </test-method> <!-- TC_CC_07 -->
+        <test-method signature="TC_CC_08()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:47:03 IST" name="TC_CC_08" finished-at="2024-12-05T00:47:05 IST" duration-ms="1690" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_08 -->
-        <test-method signature="TC_CT_09()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:02:52 IST" name="TC_CT_09" finished-at="2024-08-21T20:03:02 IST" duration-ms="10127" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),257)])[2]"}
-  (Session info: chrome=127.0.6533.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5325793c36b1a5116e714d1ab15af103, findElement {using=xpath, value=(//span[contains(text(),257)])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5325793c36b1a5116e714d1ab15af103]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),257)])[2]"}
-  (Session info: chrome=127.0.6533.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5325793c36b1a5116e714d1ab15af103, findElement {using=xpath, value=(//span[contains(text(),257)])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5325793c36b1a5116e714d1ab15af103
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at CommentsReport.CommentsTopics.Topicscount(CommentsTopics.java:86)
-at Tests.CommentsByTopics.TC_CT_09(CommentsByTopics.java:101)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- TC_CC_08 -->
+        <test-method signature="TC_CC_09()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:47:05 IST" name="TC_CC_09" finished-at="2024-12-05T00:47:11 IST" duration-ms="6242" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_09 -->
-        <test-method signature="TC_CT_10()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:03:02 IST" name="TC_CT_10" finished-at="2024-08-21T20:03:04 IST" duration-ms="1293" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <div _ngcontent-ng-c3079814927="" glintbutton="" role="combobox" aria-haspopup="listbox" class="menuButton overflow glintButton" aria-label="Topicsmenu" aria-labelledby="dropdownTriggerAriaLabel_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" aria-expanded="false" aria-controls="dropdownMenu_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" aria-disabled="false" id="dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" data-id="dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" tabindex="0">...</div> is not clickable at point (1233, 8). Other element would receive the click: <header _ngcontent-ng-c4267249590="" glintoneshell="" glintscreensize="" aria-label="Viva Glint App Header">...</header>
-  (Session info: chrome=127.0.6533.120)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5325793c36b1a5116e714d1ab15af103, clickElement {id=f.73A69602C9441FE159F55C930B436E6D.d.2C29363A2D551F0F19D7A247C7E41B62.e.340}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5325793c36b1a5116e714d1ab15af103)] -> xpath: (//div[@aria-haspopup='listbox'])[13]]
-Session ID: 5325793c36b1a5116e714d1ab15af103]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-ng-c3079814927="" glintbutton="" role="combobox" aria-haspopup="listbox" class="menuButton overflow glintButton" aria-label="Topicsmenu" aria-labelledby="dropdownTriggerAriaLabel_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" aria-expanded="false" aria-controls="dropdownMenu_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" aria-disabled="false" id="dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" data-id="dropdownTrigger_glintDropdown_c8154ae6-3219-444b-bd7b-31f74d0751ef" tabindex="0">...</div> is not clickable at point (1233, 8). Other element would receive the click: <header _ngcontent-ng-c4267249590="" glintoneshell="" glintscreensize="" aria-label="Viva Glint App Header">...</header>
-  (Session info: chrome=127.0.6533.120)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5325793c36b1a5116e714d1ab15af103, clickElement {id=f.73A69602C9441FE159F55C930B436E6D.d.2C29363A2D551F0F19D7A247C7E41B62.e.340}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SPoora01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63364/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5325793c36b1a5116e714d1ab15af103)] -> xpath: (//div[@aria-haspopup='listbox'])[13]]
-Session ID: 5325793c36b1a5116e714d1ab15af103
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at CommentsReport.CommentsTopics.Topicsremove(CommentsTopics.java:96)
-at Tests.CommentsByTopics.TC_CT_10(CommentsByTopics.java:109)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        </test-method> <!-- TC_CC_09 -->
+        <test-method signature="TC_CC_10()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:47:11 IST" name="TC_CC_10" finished-at="2024-12-05T00:47:34 IST" duration-ms="23552" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CT_10 -->
-        <test-method is-config="true" signature="generateReports()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:03:04 IST" name="generateReports" finished-at="2024-08-21T20:03:04 IST" duration-ms="782" status="PASS">
+        </test-method> <!-- TC_CC_10 -->
+        <test-method signature="TC_CC_11()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:47:34 IST" name="TC_CC_11" finished-at="2024-12-05T00:47:36 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_CC_11 -->
+        <test-method is-config="true" signature="generateReports(org.testng.ITestContext)[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:47:36 IST" name="generateReports" finished-at="2024-12-05T00:47:38 IST" duration-ms="1861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74e6094b]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReports -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.CommentsByTopics@783a467b]" started-at="2024-08-21T20:03:04 IST" name="quit" finished-at="2024-08-21T20:03:05 IST" duration-ms="888" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Tests.CommentsByComments@4f80542f]" started-at="2024-12-05T00:47:38 IST" name="quit" finished-at="2024-12-05T00:47:40 IST" duration-ms="1297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- Tests.CommentsByTopics -->
+      </class> <!-- Tests.CommentsByComments -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

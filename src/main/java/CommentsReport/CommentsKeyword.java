@@ -22,9 +22,9 @@ public class CommentsKeyword  extends SeleniumBase{
 		}
     
 	 public String KeyTooltip() throws InterruptedException {
-		 WebElement Question =driver.findElement(By.xpath(properties.getProperty("ques.driver.xpath")));
-	    	ScrollintoElement(Question);
-			WebElement ticon= driver.findElement(By.xpath(properties.getProperty("key.tlicon.xpath")));
+		     WebElement Question =driver.findElement(By.xpath(properties.getProperty("ques.driver.xpath")));
+	    	 ScrollintoElement(Question);
+			 WebElement ticon= driver.findElement(By.xpath(properties.getProperty("key.tlicon.xpath")));
 			 Actions act = new Actions(driver);
 			 act.moveToElement(ticon).build().perform();
 			 String tooltipmsg = driver.findElement(By.xpath(properties.getProperty("key.tltip.xpath"))).getText();

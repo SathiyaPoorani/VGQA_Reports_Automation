@@ -14,7 +14,7 @@ public class CommentsOverview extends SeleniumBase{
 		}
 	
 	public String commentsTitle() throws InterruptedException {
-		Thread.sleep(3000);
+		iwait();
         return driver.findElement(By.xpath(properties.getProperty("comment.title.xpath")))
         		     .getText();
 		}
@@ -69,7 +69,7 @@ public class CommentsOverview extends SeleniumBase{
 		 }
 	
 	public String Sectionremove() {
-		driver.navigate().refresh();
+	 driver.navigate().refresh();
    	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
      driver.findElement(By.xpath(properties.getProperty("comment.remove.xpath")))
            .click();

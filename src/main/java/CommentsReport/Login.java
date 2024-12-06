@@ -1,6 +1,7 @@
 package CommentsReport;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Login extends SeleniumBase {
@@ -20,6 +21,8 @@ public class Login extends SeleniumBase {
 		driver.findElement(By.xpath(properties.getProperty("LoginPage.submit.xpath"))).click();
 		
 		driver.findElement(By.id(properties.getProperty("Report.id"))).click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.body.style.zoom='75%'");
 		}
 	
 	public void survey(String survey) {

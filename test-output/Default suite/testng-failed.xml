@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.CommentsByTopics">
+      <class name="Tests.CommentsByOverview">
         <methods>
-          <include name="setObject"/>
-          <include name="TC_CT_09"/>
+          <include name="TC_CO_10"/>
           <include name="ExtentReports"/>
-          <include name="TC_CT_10"/>
+          <include name="setObject"/>
           <include name="quit"/>
           <include name="generateReports"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tests.CommentsByTopics -->
+      </class> <!-- Tests.CommentsByOverview -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

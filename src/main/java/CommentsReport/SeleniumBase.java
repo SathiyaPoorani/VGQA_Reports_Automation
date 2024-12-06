@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -55,8 +56,9 @@ public class SeleniumBase {
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].scrollIntoView();",Scrollelement);
 	}
-	
-
+	public void iwait() {
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+	}
 
 }
 

@@ -56,3 +56,5 @@ Manual cases covered    504
 ```sh
 Automation cases	374
 ```
+## Test Report
+![image](https://github.com/user-attachments/assets/bd88faa2-afad-4558-8cd9-14c857fec681)

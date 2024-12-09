@@ -1,4 +1,4 @@
-package maventest.maven_testng;
+package ODS;
 
 import java.util.concurrent.TimeUnit;
 

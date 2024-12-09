@@ -1,5 +1,5 @@
 
-package testcase;
+package ODSTest;
 
 import java.io.File;
 import java.time.Duration;
@@ -20,7 +20,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import maventest.maven_testng.Configuration;
+import  ODS.Configuration;
 
 
 public class ODS_test {

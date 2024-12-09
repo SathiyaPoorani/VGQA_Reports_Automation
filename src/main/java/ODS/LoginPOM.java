@@ -1,15 +1,14 @@
 
 //POM Page for Login Page Locators
-package maventest.maven_testng;
-import java.time.Duration;
-import org.openqa.selenium.By;
+package ODS;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import java.util.concurrent.TimeUnit;
 
 public class LoginPOM {
 
